@@ -48,7 +48,7 @@ function MenuItem({ pizza }) {
           {IsInCard ? (
             <>
               <DeleteItem pizzaId={id}>Delete </DeleteItem>
-              <UpdateItemQuntity idpizza={idpizza} pizzaId={id}/>
+              <span className="hidden sm:inline-block"><UpdateItemQuntity idpizza={idpizza} pizzaId={id}/></span>
             </>
           ) : (
             ""
